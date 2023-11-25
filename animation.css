@@ -1,0 +1,42 @@
+div{
+    height: 100px;
+    width: 100px;
+    position: absolute; 
+    background-color: blue;
+    animation-name: box;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: right;
+}
+@keyframes box{
+   
+0 %{
+
+    left: 0px;
+    top: 0px;
+    background-color: green;
+    }
+25%{
+        left: 500px;
+        top: 0px;
+     background-color: gray
+    }
+
+50%{
+
+        left:500px;
+        top: 500px;
+        background-color: orange;
+    }
+75%{
+            left: 0px;
+            top: 500px;
+         background-color: indigo;
+
+     }
+ 100%{
+        left: 0px;
+        right: 0px;
+        background-colour: purple;
+    }
+}
